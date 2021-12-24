@@ -1,0 +1,343 @@
+{
+    "table_entries": [
+      {
+        "priority": 17, 
+        "table": "MyIngress.t_DFA_match_0", 
+        "action_params": {
+          "_state": 3, 
+          "pattern_code": 1
+        }, 
+        "match": {
+          "hdr.patrns[0].pattern": [
+            104, 
+            255
+          ], 
+          "meta.state": [
+            6, 
+            6
+          ], 
+          "hdr.patrns[1].pattern": [
+            101, 
+            255
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_2_b1"
+      }, 
+      {
+        "priority": 16, 
+        "table": "MyIngress.t_DFA_match_0", 
+        "action_params": {
+          "_state": 3, 
+          "pattern_code": 1
+        }, 
+        "match": {
+          "hdr.patrns[0].pattern": [
+            101, 
+            255
+          ], 
+          "meta.state": [
+            0, 
+            7
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_1_b1"
+      }, 
+      {
+        "priority": 15, 
+        "table": "MyIngress.t_DFA_match_0", 
+        "action_params": {
+          "_state": 7, 
+          "pattern_code": 2
+        }, 
+        "match": {
+          "hdr.patrns[0].pattern": [
+            105, 
+            255
+          ], 
+          "meta.state": [
+            0, 
+            6
+          ], 
+          "hdr.patrns[1].pattern": [
+            115, 
+            255
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_2_b2"
+      }, 
+      {
+        "priority": 14, 
+        "table": "MyIngress.t_DFA_match_0", 
+        "action_params": {
+          "_state": 7, 
+          "pattern_code": 2
+        }, 
+        "match": {
+          "hdr.patrns[0].pattern": [
+            115, 
+            255
+          ], 
+          "meta.state": [
+            4, 
+            6
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_1_b2"
+      }, 
+      {
+        "priority": 13, 
+        "table": "MyIngress.t_DFA_match_0", 
+        "action_params": {
+          "_state": 4
+        }, 
+        "match": {
+          "hdr.patrns[0].pattern": [
+            104, 
+            255
+          ], 
+          "hdr.patrns[1].pattern": [
+            105, 
+            255
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_2"
+      }, 
+      {
+        "priority": 12, 
+        "table": "MyIngress.t_DFA_match_0", 
+        "action_params": {
+          "_state": 0
+        }, 
+        "match": {
+          "hdr.patrns[0].pattern": [
+            115, 
+            255
+          ], 
+          "hdr.patrns[1].pattern": [
+            104, 
+            255
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_2"
+      }, 
+      {
+        "priority": 11, 
+        "table": "MyIngress.t_DFA_match_0", 
+        "action_params": {
+          "_state": 1
+        }, 
+        "match": {
+          "hdr.patrns[1].pattern": [
+            104, 
+            255
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_2"
+      }, 
+      {
+        "priority": 10, 
+        "table": "MyIngress.t_DFA_match_0", 
+        "action_params": {
+          "_state": 6
+        }, 
+        "match": {
+          "hdr.patrns[1].pattern": [
+            115, 
+            255
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_2"
+      }, 
+      {
+        "priority": 9, 
+        "table": "MyIngress.t_DFA_match_1", 
+        "action_params": {
+          "_state": 3, 
+          "pattern_code": 1
+        }, 
+        "match": {
+          "hdr.patrns[0].pattern": [
+            104, 
+            255
+          ], 
+          "meta.state": [
+            6, 
+            6
+          ], 
+          "hdr.patrns[1].pattern": [
+            101, 
+            255
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_2_b1"
+      }, 
+      {
+        "priority": 8, 
+        "table": "MyIngress.t_DFA_match_1", 
+        "action_params": {
+          "_state": 3, 
+          "pattern_code": 1
+        }, 
+        "match": {
+          "hdr.patrns[0].pattern": [
+            101, 
+            255
+          ], 
+          "meta.state": [
+            0, 
+            7
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_1_b1"
+      }, 
+      {
+        "priority": 7, 
+        "table": "MyIngress.t_DFA_match_1", 
+        "action_params": {
+          "_state": 7, 
+          "pattern_code": 2
+        }, 
+        "match": {
+          "hdr.patrns[0].pattern": [
+            105, 
+            255
+          ], 
+          "meta.state": [
+            0, 
+            6
+          ], 
+          "hdr.patrns[1].pattern": [
+            115, 
+            255
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_2_b2"
+      }, 
+      {
+        "priority": 6, 
+        "table": "MyIngress.t_DFA_match_1", 
+        "action_params": {
+          "_state": 7, 
+          "pattern_code": 2
+        }, 
+        "match": {
+          "hdr.patrns[0].pattern": [
+            115, 
+            255
+          ], 
+          "meta.state": [
+            4, 
+            6
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_1_b2"
+      }, 
+      {
+        "priority": 5, 
+        "table": "MyIngress.t_DFA_match_1", 
+        "action_params": {
+          "_state": 4
+        }, 
+        "match": {
+          "hdr.patrns[0].pattern": [
+            104, 
+            255
+          ], 
+          "hdr.patrns[1].pattern": [
+            105, 
+            255
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_2"
+      }, 
+      {
+        "priority": 4, 
+        "table": "MyIngress.t_DFA_match_1", 
+        "action_params": {
+          "_state": 0
+        }, 
+        "match": {
+          "hdr.patrns[0].pattern": [
+            115, 
+            255
+          ], 
+          "hdr.patrns[1].pattern": [
+            104, 
+            255
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_2"
+      }, 
+      {
+        "priority": 3, 
+        "table": "MyIngress.t_DFA_match_1", 
+        "action_params": {
+          "_state": 1
+        }, 
+        "match": {
+          "hdr.patrns[1].pattern": [
+            104, 
+            255
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_2"
+      }, 
+      {
+        "priority": 2, 
+        "table": "MyIngress.t_DFA_match_1", 
+        "action_params": {
+          "_state": 6
+        }, 
+        "match": {
+          "hdr.patrns[1].pattern": [
+            115, 
+            255
+          ]
+        }, 
+        "action_name": "MyIngress.a_set_state_2"
+      }, 
+      {
+        "table": "MyIngress.t_get_root_state", 
+        "default_action": true, 
+        "action_params": {
+          "root_state": 2
+        }, 
+        "action_name": "MyIngress.a_get_root_state"
+      }, 
+      {
+        "table": "MyIngress.t_DFA_match_0", 
+        "default_action": true, 
+        "action_params": {
+          "_state": 2
+        }, 
+        "action_name": "MyIngress.a_set_state_2"
+      }, 
+      {
+        "table": "MyIngress.t_DFA_match_1", 
+        "default_action": true, 
+        "action_params": {
+          "_state": 2
+        }, 
+        "action_name": "MyIngress.a_set_state_2"
+      }, 
+      {
+        "priority": 2, 
+        "table": "MyIngress.t_pattern2rule", 
+        "action_params": {}, 
+        "match": {
+          "meta.b2": [
+            2, 
+            255
+          ], 
+          "meta.b1": [
+            1, 
+            255
+          ]
+        }, 
+        "action_name": "MyIngress.a_mark_as_to_forward"
+      }
+    ], 
+    "bmv2_json": "build/bolt.json", 
+    "target": "bmv2", 
+    "p4info": "build/bolt.p4.p4info.txt"
+  }

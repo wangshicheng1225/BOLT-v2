@@ -1,0 +1,34 @@
+# Python byte code
+*.pyc
+*.pyo
+
+# Emacs
+*~
+
+# Compiled JSON
+*.json
+!*p4app.json
+!topology.json
+!*-runtime-*.json
+!*-runtime.json
+*.pcap
+
+# Extracted solutions
+solution*/
+!solution/
+
+# Build folders
+build*/
+
+# Logs folders
+logs/
+*.txt
+
+# Vagrant
+.vagrant/
+
+# Mac OS
+*.DS_Store
+
+# IntelliJ / PyCharm
+.idea/
